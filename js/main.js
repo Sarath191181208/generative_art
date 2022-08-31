@@ -102,14 +102,16 @@ window.addEventListener('load', () => {
 
     function updateSliders() {
         spreadSlider.value = spread;
-        spreadLabel.innerText = `Spread: ${Number(spread).toFixed(1)}`
+        spreadLabel.innerText = `Spread:${Number(spread).toFixed(1)}`
 
         sidesSlider.value = sides;
-        sidesLabel.innerText = `Sides: ${sides}`
+        sidesLabel.innerText = `Sides:${sides}`
     }
 
     
     drawRandomFractal();
+
+    
 
 })
 
