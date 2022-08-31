@@ -1,41 +1,41 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.canvas-container{
-    display: grid;
-    place-content: center;
-    place-items: center;
+.canvas-container {
+  display: grid;
+  place-content: center;
+  place-items: center;
 }
 
-#generative-canvas{
-    background-color: black;
+#generative-canvas {
+  background-color: black;
 }
 
-#controls{
-    position: absolute;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.1);
+#controls {
+  position: absolute;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
 }
 
-.slider-container{
-    display: flex;
-    align-items: center;
+.slider-container {
+  display: flex;
+  align-items: center;
 }
 
 button {
-    padding: 5px;
-    width: 100px;
-    /* font-size: 20px; */
+  padding: 5px;
+  width: 100px;
+  /* font-size: 20px; */
 }
 
-label, input{
-    color: white;
-    font-size: 15px;
-}
+label, input {
+  color: white;
+  font-size: 15px;
+}/*# sourceMappingURL=style.css.map */
